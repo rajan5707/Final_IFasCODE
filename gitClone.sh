@@ -15,10 +15,10 @@ function settingInfraStructureSetup () {
         #cd /home/ec2-user/InfraStructureSetup
         git init
         git clone $repoLink
-	mv testassessment/* . #moving the files from gitProject direc to current path
+	mv Final_IFasCODE/* . #moving the files from gitProject direc to current path
 }
 
-repoLink=https://github.com/rajan5707/testassessment.git
+repoLink=https://github.com/rajan5707/Final_IFasCODE.git
 gitInstall 
 settingInfraStructureSetup
 
