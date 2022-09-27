@@ -34,6 +34,6 @@ ansibleInstall
 
 echo ">>>>: FIRING TERRAFORM TO SPIN UP THE INSTANCES"
 echo ">>>>: HOPE YOU HAVE CHANGED THE AWS-REOSURCES "
-./runTF_cmd
+./runTF_cmd.sh
 
 
