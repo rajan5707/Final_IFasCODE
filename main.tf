@@ -5,10 +5,10 @@ provider "aws" {
 }
 resource "aws_instance" "web" {
   count = 5
-  ami           = "ami-06489866022e12a14"
-  instance_type = "t2.xlarge"
-  vpc_security_group_ids = ["sg-0910a859df4b2ed77"]
-  key_name          = "naveenaws"
+  ami           = "ami-06489866022e12a14" # chnage with your ami 
+  instance_type = "t2.xlarge"   # instance typr 
+  vpc_security_group_ids = ["sg-0910a859df4b2ed77"]  # change with your security group 
+  key_name          = "naveenaws"  # change with your keypair name (****.pem)
 
   tags = {
     Name = "Hellow"
